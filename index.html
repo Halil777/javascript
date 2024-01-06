@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Hello</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div style="padding-left: 10%">
+        <div id="message-container">
+          <h1 id="main-message">Hello, World!</h1>
+        </div>
+
+        <button id="change-message-btn">Change Message</button>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <p id="greeting-message"></p>
+        <input type="text" id="name-input" placeholder="Enter your name" />
+        <button id="greet-btn">Greet</button>
+      </div>
+
+      <div>
+        <p id="counter-display" style="text-align: center">Counter: 0</p>
+        <div>
+          <button id="increment-counter-btn">Increment</button>
+          <button id="decrement-counter-btn">Decrement</button>
+        </div>
+      </div>
+
+      <div
+        id="image-container"
+        style="
+          text-align: center;
+          padding-right: 10%;
+          gap: 10px;
+          display: flex;
+          flex-direction: column;
+        "
+      >
+        <img
+          src="./download.jpg"
+          alt="Sample Image"
+          id="sample-image"
+          style="max-width: 100%"
+        />
+        <div>
+          <button id="increase-size-btn">Increase</button>
+          <button id="decrease-size-btn">Decrease</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

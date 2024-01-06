@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 50vh;
+}
+
+#message-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-message {
+    color: #333;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    color: orangered;
+}
+
+input {
+    border: 1px solid #45a049;
+    padding: 10px 12px;
+    border-radius: 12px;
+    outline: none;
+}
